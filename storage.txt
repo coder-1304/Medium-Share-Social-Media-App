@@ -1,0 +1,4 @@
+<div class="postReaction">
+          <div id="likeEmoji" onclick="like()">🤍</div>
+          <div id="likes">500 Likes</div>
+        </div>

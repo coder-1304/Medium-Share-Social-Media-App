@@ -1,0 +1,176 @@
+.myContainer {
+  /* border: 2px solid black; */
+  width: 99%;
+  display: flex;
+  /* margin: 5px; */
+  height: 500px;
+}
+
+.postSection {
+  /* border: 2px solid darkblue; */
+  width: 500px;
+  margin: 5px;
+  overflow: auto;
+  width: 75%;
+}
+
+.friends {
+  border: 2px solid darkblue;
+  width: 100px;
+  margin: 5px;
+  overflow: auto;
+  width: 25%;
+}
+
+.friend {
+  display: flex;
+  align-items: center;
+  height: 53px;
+  /* border: 2px solid darkblue; */
+  
+  width: 95%;
+  margin: 7px;
+  padding: 10px 5px;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: rgb(129, 0, 180);
+}
+
+.chatBtn {
+  color: black;
+  /* height: 90%; */
+  /* width: 50px; */
+  border-radius: 5px;
+  border-radius: 5px;
+  border: none;
+  margin: 2px;
+  margin-left: auto;
+  padding: 3px 9px;
+  background-color: rgb(245, 220, 255);
+}
+
+.avat {
+  height: 50px;
+  width: 50px;
+  border-radius: 45%;
+}
+
+.info{
+  margin-left: 6px;
+}
+
+.username{
+  font-size: 75%;
+  letter-spacing: 1px;
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+  font-style: italic;
+  margin-left: 2px;
+  color: rgb(175, 175, 175);
+}
+
+.name{
+  color: white;
+}
+
+#yourFriends{
+  color: rgb(104, 0, 145);
+}
+
+.postSomething{
+  background-color: rgb(245, 220, 255);
+  /* border-top-left-radius: 16px;
+  border-bottom-right-radius: 16px; */
+  /* border-radius: 16px; */
+  height: auto;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.btnSection{
+  /* margin-top: 76px; */
+  /* border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px; */
+  height: auto;
+  background-color: rgb(245, 220, 255);
+  margin-top: 0px;
+  display: flex;
+  justify-content: start;
+}
+
+textarea{
+  margin-bottom: 0px;
+  height: 88px;
+  width: 100%;
+  /* border-top-left-radius: 16px;
+  border-top-right-radius: 16px; */
+}
+
+
+#postBtn{
+  border-radius: 4px;
+  border: 1px solid rgb(37, 0, 51);
+  padding: 2px 10px;
+  margin-bottom: 40px;
+  margin: auto 0px;
+  background-color: rgb(104, 0, 145);
+  color: white;
+}
+
+.post{
+  margin: 20px 0px;
+  height: auto;
+  border: 1px solid black;
+  box-shadow: -1px 1px 10px black;
+  border-radius: 10px;
+}
+
+.postInfo{
+  height: 60px;
+  /* border: 1px solid black; */
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: row;
+}
+
+.nameUsername{
+  margin: auto 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.senderUsername{
+  margin-left: 8px;
+  font-style: italic;
+}
+
+.senderName{
+  margin: 0px 8px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#senderAvatar{
+  margin-left: 10px;
+}
+
+#postContent{
+  padding: 10px;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.postReaction{
+  border-top: 1px solid black;
+  margin: 12px 0px;
+  margin-left: 8px;
+  font-size: 18px;
+  display: flex;
+}
+
+#likes{
+  margin-left: 6px;
+}
+
+#likeEmoji{
+  cursor: pointer;
+}

@@ -1,0 +1,18 @@
+.profileBody{
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    /* display: flex;
+    flex-direction: row; */
+}
+
+.avatarImage{
+    margin-right: 5px;
+    /* height: 200px; */
+}
+
+/* .myInfo{
+} */
+body{
+    background-color: #9de2ff;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            margin: auto;
+            width: 35%;
+            margin-top: 20px;
+            height: 60%;
+        }
+        .image{
+            height: 200px;
+            width: 200px;
+        }
+        #switchBtn{
+            display: flex;
+        }
+        #next{
+            margin-left: auto;
+        }
+        #avatar,#start{
+            display: flex;
+            justify-content: center;
+        }
+        .head{
+            display: flex;
+            justify-content: center;
+        }
+        h2{
+            font-family:  Courier, monospace;
+            color: white;
+        }
+        .button{
+            border-radius: 5px;
+            padding: 7px 20px;
+            margin: 20px;
+            font-size: 17px;
+            font-weight: bold;
+            background-color: yellow;
+            border: none;
+        }
+        .button:hover{
+            box-shadow: 2px 3px 8px red;
+        }
+        body{
+            background-color: rgb(94, 0, 131);
+        }
+        #startButton{
+            border-radius: 8px;
+            border: none;
+            padding: 9px 20px;
+            margin-top: 20px;
+            transition-property: all;
+            transition-duration: 0.2s;
+            background-color:rgb(247, 228, 255) ;
+            font-size: 15px;
+        }
+        #startButton:hover{
+            padding: 11px 23px;
+            margin-top: 20px;
+            transition-property: all;
+            transition-duration: 0.2s;
+            background-color:rgb(247, 228, 255) ;
+            font-size: 20px;
+        }
+        /* #startButton:hover{
+            padding: 30px;
+        } */
+    </style>
+</head>
+
+<body>
+    <div class="head">
+        <h2>Choose Your Avatar</h2>
+    </div>
+    <div class="container">
+        <div id="avatar"><img src="https://cdn-icons-png.flaticon.com/512/8132/8132932.png" class="image" id="avatarImg" alt=""></div>
+        <div id="switchBtn">
+            <button id="prev" onclick="prev()" class="button">PREV</button>
+            <button id="next" onclick="next()" class="button">NEXT</button>
+        </div>
+        <!-- <form action="/getStarted" method="post">
+            
+        </form> -->
+        <div id="start"><button id="startButton" onclick="submit()">Get Started</button></div>
+    </div>
+    <script src="js/selectAvatar.js"></script>
+</body>
+
+</html>
